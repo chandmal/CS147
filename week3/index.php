@@ -16,7 +16,9 @@
 		<div class="banner"></div>
 		
 		<table>
-		<!-- This is where we'll put all our content -->
+		<?php
+		include("config.php");
+		$query = "";
 		
 		<?php
 			include("config.php");
@@ -30,7 +32,6 @@
 				
 			}
 		?>
-
 		</table>
 		
 		<script type="text/javascript">
